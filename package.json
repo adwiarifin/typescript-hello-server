@@ -1,0 +1,28 @@
+{
+  "name": "typescript-hello-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adwiarifin/typescript-hello-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript"
+  ],
+  "author": "Adwi Arifin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adwiarifin/typescript-hello-server/issues"
+  },
+  "homepage": "https://github.com/adwiarifin/typescript-hello-server#readme",
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "express": "^4.17.1"
+  }
+}
