@@ -24,9 +24,11 @@ export class DataStore {
 
                 let vehicles = []
                 files.forEach((file) => {
-                    let bytes = fs.readFileSync(path + file)
-                    let vehicle = JSON.parse(bytes.toString())
-                    vehicles.push(vehicle)
+                    if (file !== '.gitkeep') {
+                        let bytes = fs.readFileSync(path + file)
+                        let vehicle = JSON.parse(bytes.toString())
+                        vehicles.push(vehicle)
+                    }
                 });
 
                 return resolve(vehicles)
