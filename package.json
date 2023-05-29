@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build/ && tsc -w false",
-    "start": "node build/index.js"
+    "start": "node build/index.js start-server"
   },
   "repository": {
     "type": "git",
